@@ -6,12 +6,10 @@ server.sendmail('dummysakti@gmail.com', 'hisakti@gmail.com', 'testig message')
 
 server.quit()
 
-
-
 # from email.message import EmailMessage
 
 # email = EmailMessage()
-# email['from'] = 'Saktikanta Senapati'
+# email['from'] = 'dummysakti@gmail.com'
 # email['to'] = 'hisakti@gmail.com'
 # email['subject'] = 'Sample email test from python!'
 
