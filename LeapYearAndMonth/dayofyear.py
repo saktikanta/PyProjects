@@ -33,8 +33,7 @@ def day_of_year(year, month, day):
         return None
     if day in range(1, 32):
         if day <= days_in_month(year, month):
-            day_of_year += day
-            return day_of_year
+            return day_of_year + day
         else:
             return None
     else:
